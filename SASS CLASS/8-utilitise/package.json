@@ -1,0 +1,13 @@
+{
+  "name": "8-utilitise",
+  "version": "1.0.0",
+  "description": "SASS",
+  "license": "ISC",
+  "author": "praveen",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start":"sass ./input.scss ./output.css && sass ./input.scss ./output.css --style=compressed --no-source-map  --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

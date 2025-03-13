@@ -1,0 +1,86 @@
+$b-t-s: 1rem;
+$font-sm: $b-t-s * 0.75;
+$font-lg: $b-t-s * 1.5;
+$font-xl: $b-t-s * 2;
+$font-xxl: $b-t-s * 3;
+
+$colors: (
+  "primary": #bf00ff,
+  "success": #00ff80,
+  "danger": #ff0000,
+  "warning": #ffff00,
+);
+
+body {
+  // background-color: burlywood;
+  font-size: $font-lg;
+  color: map-get($colors, "danger");
+}
+
+//////each control directive
+///
+///
+///
+/////////  each loops
+///
+@each $key, $val in $colors {
+  .text-#{$key} {
+    color: #{$val};
+  }
+  .bg-#{$key} {
+    background-color: #{$val};
+  } ////// for loops
+
+  @for $i from 1 through 3 {
+    .text-#{$key}-light-#{$i} {
+      color: lighten($val, $i * 10%);
+    }
+    .bg-#{$key}-light-#{$i} {
+      background-color: lighten($val, $i * 10%);
+    }
+  }
+
+  @for $i from 1 through 3 {
+    .text-#{$key}-dark-#{$i} {
+      color: darken($val, $i * 10%);
+    }
+    .bg-#{$key}-dark-#{$i} {
+      background-color: darken($val, $i * 10%);
+    }
+  }
+}
+
+$dark: black;
+$text: white;
+
+.if-state {
+  // background-color: $dark;
+  padding: 20px;
+  @if (background-color: $dark) {
+    color: $text;
+  }
+  @if (background-color: $text) {
+    color: black;
+    border: 2px black solid;
+  }
+}
+
+@mixin box-model($dark, $white) {
+  background-color: $dark;
+  color: $white;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+}
+
+.box-1 {
+  @include box-model(black, white);
+  padding: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.box-2 {
+  @include box-model(yellow, black);
+  padding: 20px;
+}

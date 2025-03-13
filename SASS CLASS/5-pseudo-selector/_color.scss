@@ -1,0 +1,39 @@
+//colors
+
+//// which is enter path name that used to your scss import top that same name after excute
+
+$primary: rgb(68, 0, 255);
+$success: green;
+$danger: black;
+$dark: black;
+$text-primary: white;
+
+.btn {
+  padding: 10px;
+  color: rgb(22, 15, 15);
+}
+
+.btn-primary {
+  background-color: $primary;
+  color: white;
+  border: none;
+  &:hover {
+    background-color: lighten($danger, 40%);
+  }
+}
+.btn-success {
+  background-color: $success;
+  color: white;
+  border: none;
+  &:hover {
+    background-color: lighten($danger, 40%);
+  }
+}
+.btn-danger {
+  background-color: $danger;
+  color: white;
+  border: none;
+  &:hover {
+    background-color: lighten($danger, 40%);
+  }
+}

@@ -1,0 +1,12 @@
+$font-size-lg:100px;
+$clprimary:blue;
+
+body{
+    text-align: center;
+    background-color: rgba(209, 159, 159, 0.623); 
+}
+
+h1{
+    font-size: $font-size-lg;
+    color: $clprimary;
+}

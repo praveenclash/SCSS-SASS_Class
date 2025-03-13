@@ -1,0 +1,268 @@
+body {
+  font-size: 1.5rem;
+  color: red;
+}
+.text-primary {
+  color: #bf00ff;
+}
+.bg-primary {
+  background-color: #bf00ff;
+}
+.text-primary-light-1 {
+  color: rgb(203.8, 51, 255);
+}
+.bg-primary-light-1 {
+  background-color: rgb(203.8, 51, 255);
+}
+.text-primary-light-2 {
+  color: rgb(216.6, 102, 255);
+}
+.bg-primary-light-2 {
+  background-color: rgb(216.6, 102, 255);
+}
+.text-primary-light-3 {
+  color: rgb(229.4, 153, 255);
+}
+.bg-primary-light-3 {
+  background-color: rgb(229.4, 153, 255);
+}
+.text-primary-dark-1 {
+  color: rgb(152.8, 0, 204);
+}
+.bg-primary-dark-1 {
+  background-color: rgb(152.8, 0, 204);
+}
+.text-primary-dark-2 {
+  color: rgb(114.6, 0, 153);
+}
+.bg-primary-dark-2 {
+  background-color: rgb(114.6, 0, 153);
+}
+.text-primary-dark-3 {
+  color: rgb(76.4, 0, 102);
+}
+.bg-primary-dark-3 {
+  background-color: rgb(76.4, 0, 102);
+}
+.text-success {
+  color: #00ff80;
+}
+.bg-success {
+  background-color: #00ff80;
+}
+.text-success-light-1 {
+  color: rgb(51, 255, 153.4);
+}
+.bg-success-light-1 {
+  background-color: rgb(51, 255, 153.4);
+}
+.text-success-light-2 {
+  color: rgb(102, 255, 178.8);
+}
+.bg-success-light-2 {
+  background-color: rgb(102, 255, 178.8);
+}
+.text-success-light-3 {
+  color: rgb(153, 255, 204.2);
+}
+.bg-success-light-3 {
+  background-color: rgb(153, 255, 204.2);
+}
+.text-success-dark-1 {
+  color: rgb(0, 204, 102.4);
+}
+.bg-success-dark-1 {
+  background-color: rgb(0, 204, 102.4);
+}
+.text-success-dark-2 {
+  color: rgb(0, 153, 76.8);
+}
+.bg-success-dark-2 {
+  background-color: rgb(0, 153, 76.8);
+}
+.text-success-dark-3 {
+  color: rgb(0, 102, 51.2);
+}
+.bg-success-dark-3 {
+  background-color: rgb(0, 102, 51.2);
+}
+.text-danger {
+  color: #ff0000;
+}
+.bg-danger {
+  background-color: #ff0000;
+}
+.text-danger-light-1 {
+  color: #f33;
+}
+.bg-danger-light-1 {
+  background-color: #f33;
+}
+.text-danger-light-2 {
+  color: #f66;
+}
+.bg-danger-light-2 {
+  background-color: #f66;
+}
+.text-danger-light-3 {
+  color: #f99;
+}
+.bg-danger-light-3 {
+  background-color: #f99;
+}
+.text-danger-dark-1 {
+  color: #c00;
+}
+.bg-danger-dark-1 {
+  background-color: #c00;
+}
+.text-danger-dark-2 {
+  color: #900;
+}
+.bg-danger-dark-2 {
+  background-color: #900;
+}
+.text-danger-dark-3 {
+  color: #600;
+}
+.bg-danger-dark-3 {
+  background-color: #600;
+}
+.text-warning {
+  color: #ffff00;
+}
+.bg-warning {
+  background-color: #ffff00;
+}
+.text-warning-light-1 {
+  color: #ff3;
+}
+.bg-warning-light-1 {
+  background-color: #ff3;
+}
+.text-warning-light-2 {
+  color: #ff6;
+}
+.bg-warning-light-2 {
+  background-color: #ff6;
+}
+.text-warning-light-3 {
+  color: #ff9;
+}
+.bg-warning-light-3 {
+  background-color: #ff9;
+}
+.text-warning-dark-1 {
+  color: #cc0;
+}
+.bg-warning-dark-1 {
+  background-color: #cc0;
+}
+.text-warning-dark-2 {
+  color: #990;
+}
+.bg-warning-dark-2 {
+  background-color: #990;
+}
+.text-warning-dark-3 {
+  color: #660;
+}
+.bg-warning-dark-3 {
+  background-color: #660;
+}
+.if-state {
+  padding: 20px;
+  color: #fff;
+  color: #000;
+  border: 2px #000 solid;
+}
+.box-1 {
+  background-color: #000;
+  color: #fff;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  padding: 20px;
+  overflow: hidden;
+  text-align: center;
+}
+.box-2 {
+  background-color: #ff0;
+  color: #000;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  padding: 20px;
+}
+.p-0 {
+  padding: 0;
+}
+.p-1 {
+  padding: 10px;
+}
+.p-2 {
+  padding: 20px;
+}
+.p-3 {
+  padding: 30px;
+}
+.pl-0 {
+  padding-left: 0;
+}
+.pl-1 {
+  padding-left: 10px;
+}
+.pl-2 {
+  padding-left: 20px;
+}
+.pl-3 {
+  padding-left: 30px;
+}
+.m-0 {
+  margin: 0;
+}
+.m-1 {
+  margin: 10px;
+}
+.m-2 {
+  margin: 20px;
+}
+.m-3 {
+  margin: 30px;
+}
+.ml-0 {
+  margin-left: 0;
+}
+.ml-1 {
+  margin-left: 10px;
+}
+.ml-2 {
+  margin-left: 20px;
+}
+.ml-3 {
+  margin-left: 30px;
+}
+.mr-0 {
+  margin-right: 0;
+}
+.mr-1 {
+  margin-right: 10px;
+}
+.mr-2 {
+  margin-right: 20px;
+}
+.mr-3 {
+  margin-right: 30px;
+}
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-1 {
+  margin-bottom: 10px;
+}
+.mb-2 {
+  margin-bottom: 20px;
+}
+.mb-3 {
+  margin-bottom: 30px;
+}

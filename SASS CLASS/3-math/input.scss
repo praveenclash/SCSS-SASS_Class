@@ -1,0 +1,19 @@
+$b-t-s: 1rem;
+$font-sm: $b-t-s * 0.75;
+$font-lg: $b-t-s * 1.5;
+$font-xl: $b-t-s * 2;
+$font-xxl: $b-t-s * 3;
+
+
+$colors: (
+    "primary": #bf00ff,
+    "success": #00ff80,
+    "danger": #ff0000,
+    "warning": #ffff00,
+    );
+    
+    body {
+      background-color: burlywood;
+      font-size: $font-lg;
+      color: map-get($colors, 'danger' );
+    }

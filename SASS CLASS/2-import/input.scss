@@ -1,0 +1,25 @@
+@import "color";
+
+nav {
+  ul {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+
+    li {
+      list-style: none;
+
+      a {
+        color: $text-primary;
+        text-decoration: none;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: lighten($primary, 100%);
+        }
+      }
+    }
+  }
+}
